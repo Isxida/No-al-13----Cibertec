@@ -1,0 +1,110 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title></title>
+	<meta name="description" content="Contratenos">
+	<meta name="author" content="Isxida - Carlos Humani">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<style>
+	body {
+	  padding-top: 60px;
+	  padding-bottom: 40px;
+	}
+	</style>
+	<link rel="stylesheet" href="../css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="../css/style.css">
+
+	<script src="../js/libs/modernizr-2.5.2-respond-1.1.0.min.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="../index.html">No al 13! - Cibertec</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="../index.html">Inicio</a></li>
+              <li><a href="login.html">Login o Registrate</a></li>
+              <li><a href="contratenos.html">Contratenos!</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="container">
+	<div class="row-fluid">
+        <div class="span4">
+			<form class="Registro">
+					<h2>Registrate</h2><br>
+					<input type="text" class="span5" placeholder="ID de Login">
+					<span class="help-inline">ID para ingresar</span><br>
+					<input type="password" class="span6" placeholder="Contraseña">
+					<span class="help-inline">Contraseña para ingresar</span><br>
+					<input type="password" class="span6" placeholder="Reingrese la contraseña">
+					<span class="help-inline">Reingresa la contraseña</span><br>
+					<input type="text" class="span6" placeholder="Correo electronico">
+					<span class="help-inline">Para comprobar que eres humano</span><br>
+					<input type="text" class="span6" placeholder="Nombre y Apellidos">
+					<input type="text" class="span3" placeholder="Edad">
+					<br>
+							<?
+								//escribimos en la página lo que nos devuelve recaptcha_get_html()
+								echo recaptcha_get_html($captcha_publickey, $error_captcha);
+								?>
+					<br><br>
+				<button type="submit" class="btn btn-large btn-success">Registrarte</button>
+			</form>
+		</div>
+		<div class="span4">
+			<a class="thumbnail">
+			<img src="../trololol.jpg" alt>
+			</a>
+		</div>
+		<div class="span4"><br><br><br><br><br>
+		<h2> O si ya tienes cuenta :</h2>
+			<form class="Login">
+					<input type="ID" class="input" placeholder="Email"><br>
+					<input type="password" class="input" placeholder="Password"><br><br>
+				<button type="submit" class="btn btn-large btn-success">Login</button>
+			</form>
+		</div>
+   </div>
+</div>
+	 
+	 <hr>
+      <footer>
+        <p>&copy; Isx-CHS 2012 </p>
+      </footer>
+
+    </div> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+<script src="../js/libs/bootstrap/transition.js"></script>
+<script src="../js/libs/bootstrap/collapse.js"></script>
+
+<script src="../js/script.js"></script>
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+</body>
+</html>
