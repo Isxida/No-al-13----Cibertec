@@ -99,10 +99,16 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
+<<<<<<< HEAD
   color: #050200;
   background-image:url('../blueprint.png');
   background-repeat:no-repeat;
   background-position:center;
+=======
+  color: #e8e8e8;
+  background-image:url('../blueprint.png');
+  background-size: 100%;
+>>>>>>> 98f6b26bfe23be1909b249bc5544277da162056e
 }
 a {
   color: #0088cc;
