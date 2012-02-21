@@ -99,8 +99,10 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  color: #e8e8e8;
-  background-color: #193570;
+  color: #050200;
+  background-image:url('../blueprint.png');
+  background-repeat:no-repeat;
+  background-position:center;
 }
 a {
   color: #0088cc;
@@ -3330,7 +3332,7 @@ a.thumbnail:hover {
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
-  background-color: #472714;
+  background-image:url(../rainbows.jpg);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
